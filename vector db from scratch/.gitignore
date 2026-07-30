@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# pytest / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# data this project generates at runtime (WAL + snapshots + on-disk collections)
+*.wal
+*.jsonl
+data/
+*.npy
+!benchmarks/results.csv
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# resume file -- personal, not part of the project, keep out of the public repo
+resume.tex
+resume.pdf
+HOW_TO_BUILD_THIS.pdf
+INTERVIEW_PREP.md
