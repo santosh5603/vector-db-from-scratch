@@ -11,10 +11,7 @@ for it. The three-way benchmark below is the whole point of the project: it turn
 "approximate search trades accuracy for speed" from something you read in a blog post
 into something you can measure yourself.
 
-If you want the long-form version — why every design choice was made, and the bug I hit
-building HNSW's deletion logic — read [`INTERVIEW_PREP.md`](./INTERVIEW_PREP.md). If you
-want to build the whole thing yourself from an empty folder, [`HOW_TO_BUILD_THIS.pdf`](./HOW_TO_BUILD_THIS.pdf)
-walks through it step by step.
+
 
 ## It actually passes its own tests
 
